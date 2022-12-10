@@ -1,0 +1,1081 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    transition: .5s;
+}
+
+header{
+    background-color: #DFEEF1;
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    nav{
+        width: 1200px;
+        background-color: #fff;
+        position: absolute;
+        height: 51px;
+        border-radius: 75px;
+        right: 200px;
+        top: 30px;
+        .logo{
+            position: absolute;
+            left: 53px;
+            top: 15px;
+        }
+        .link_one{
+            position: absolute;
+            left: 267px;
+            top: 18px;
+            color: #22253B;
+            text-decoration: none;
+        }
+        .link_two{
+            position: absolute;
+            left: 429px;
+            top: 18px;
+            color: #22253B;
+            text-decoration: none;
+        }
+        .link_three{
+            position: absolute;
+            left: 589px;
+            top: 18px;
+            color: #22253B;
+            text-decoration: none; 
+        }
+        .link_four{
+            position: absolute;
+            left: 704px;
+            top: 18px;
+            color: #22253B;
+            text-decoration: none; 
+        }
+        .link_five{
+            position: absolute;
+            left: 950px;
+            top: 18px;
+            color: #22253B;
+            text-decoration: none; 
+        }
+        button{
+            width: 77px;
+            height: 30px;
+            border-radius: 34px;
+            background: #38BFF2;
+            border: none;
+            color: #fff;
+            position: absolute;
+            left: 1100px;
+            top: 11px;
+            cursor: pointer;
+        }
+        button:hover{
+            transform: scale(1.05);
+        }
+        button:active{
+            transform: scale(.9);
+        }
+    }
+   .circle_one{
+        width: 900px;
+        background-color: #EBF4F7;
+        height: 800px;
+        border-radius: 50%;
+        margin-left: 590px;
+        margin-top: 0px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+   }
+   .circle_two{
+        width: 600px;
+        height: 600px;
+        background-color: #EBF4F7;
+        position: absolute;
+        border-radius: 50%;
+        top: 15%;
+        left: 800px;
+        border: 2px solid white;
+   }
+   .circle_three{
+        width: 400px;
+        height: 400px;
+        border: 2px solid white;
+        border-radius: 50%;
+        position: absolute;
+        background-color: #EBF4F7;
+        top: 28%;
+        left: 915px;
+   }
+   .computer{
+        position: absolute;
+        top: 25%;
+        left: 930px;
+   }
+   h1{
+        font-weight: 500;
+        position: absolute;
+        margin-top: 7%;
+        left: 120px;
+        top: 133px;
+        font-size: 46px;
+        line-height: 46px;
+        width: 638px;
+    span{
+        color: #F15525;
+    }
+   }
+   .paragrph{
+        position: absolute;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        left: 120px;
+        top: 500px;
+   }
+   .button_two{
+        width: 321px;
+        height: 70px;
+        background: #F15525;
+        border-radius: 50px;
+        border: none;
+        position: absolute;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.03em;
+        font-size: 20px;
+        color: #fff;
+        left: 130px;
+        top: 630px; 
+        cursor: pointer;
+    }
+    .button_two:hover{
+        transform: scale(1.05);
+    }
+    .button_two:active{
+        transform: scale(.9);
+    }
+}
+
+.texnology{
+    h1{
+        position: absolute;
+        color: #22253B;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 46px;
+        text-align: center;
+        width: 100%;
+        top: 950px;
+    }
+    .box{
+        width: 1160px;
+        height: 396px;
+        background-color: #EAF2F5;
+        position: absolute;
+        border-radius: 48px;
+        left: 180px;
+        top: 1050px;
+        .person{
+            position: absolute;
+            left: 150px;
+            top: 42px;
+        }
+         .button_one{
+                width: 311px;
+                height: 45.13px;
+                background: #5096FF;
+                border: none;
+                border-radius: 44px;
+                color: #fff;
+                left: 600px;
+                position: absolute;
+                top: 78px;
+        }
+        .button_two{
+                width: 89px;
+                height: 45.13px;
+                background: #FFB359;
+                border: none;
+                border-radius: 44px;
+                color: #fff;
+                left: 930px;
+                position: absolute;
+                top: 78px;
+        }
+        .button_three{
+                width: 151px;
+                height: 45.13px;
+                background: #FF6F50;
+                border: none;
+                border-radius: 44px;
+                color: #fff;
+                left: 600px;
+                position: absolute;
+                top: 134px;
+        }
+        .button_four{
+                width: 277px;
+                height: 45.13px;
+                background: #4BD071;
+                border: none;
+                border-radius: 44px;
+                color: #fff;
+                left: 770px;
+                position: absolute;
+                top: 134px;
+        }
+        .button_five{
+            width: 277px;
+            height: 45.13px;
+            background: #50C0FF;
+            border: none;
+            border-radius: 44px;
+            color: #fff;
+            left: 600px;
+            position: absolute;
+            top: 188px;
+        }
+        .button_six{
+            width: 95px;
+            height: 45.13px;
+            background: #4B77B9;
+            border: none;
+            border-radius: 44px;
+            color: #fff;
+            left: 890px;
+            position: absolute;
+            top: 188px;
+        }
+        .button_seven{
+            width: 95px;
+            height: 45.13px;
+            background: #AF93FF;
+            border: none;
+            border-radius: 44px;
+            color: #fff;
+            left: 1000px;
+            position: absolute;
+            top: 188px;
+        }
+        h2{
+            color: #22253B;
+            position: absolute;
+            left: 600px;
+            top: 280px;
+        }
+    }
+}
+
+.result{
+    h1{
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 46px;
+        top: 1550px;
+    }
+    .cards{
+        .card_one{
+            width: 270px;
+            height: 254px;
+            background: #EAF2F5;
+            position: absolute;
+            border-radius: 30px;
+            left: 150px;
+            top: 1700px;
+            img{
+                left: 106px;
+                position: absolute;
+                top: 50px;
+            }
+            h4{
+                position: absolute;
+                left: 52px;
+                top: 127px;
+                color: #22253B;
+                text-align: center;
+                font-size: 16px;
+            }
+            p{
+                text-align: center;
+                left: 50px;
+                position: absolute;
+                top: 174px;
+                font-size: 13px;
+            }
+        }
+        .card_two{
+            width: 270px;
+            height: 254px;
+            background: #EAF2F5;
+            position: absolute;
+            border-radius: 30px;
+            left: 450px;
+            top: 1700px;
+              img{
+                left: 106px;
+                position: absolute;
+                top: 50px;
+            }
+             h4{
+                position: absolute;
+                left: 65px;
+                top: 127px;
+                color: #22253B;
+                text-align: center;
+                font-size: 16px;
+            }
+             p{
+                text-align: center;
+                left: 50px;
+                position: absolute;
+                top: 174px;
+                font-size: 13px;
+            }
+        }
+        .card_three{
+            width: 270px;
+            height: 254px;
+            background: #EAF2F5;
+            position: absolute;
+            border-radius: 30px;
+            left: 750px;
+            top: 1700px;
+              img{
+                left: 100px;
+                position: absolute;
+                top: 50px;
+            }
+             h4{
+                position: absolute;
+                left: 60px;
+                top: 127px;
+                color: #22253B;
+                text-align: center;
+                font-size: 16px;
+            }
+             p{
+                text-align: center;
+                left: 70px;
+                position: absolute;
+                top: 174px;
+                font-size: 13px;
+            }
+        }
+        .card_four{
+            width: 270px;
+            height: 254px;
+            background: #EAF2F5;
+            position: absolute;
+            border-radius: 30px;
+            left: 1050px;
+            top: 1700px;
+              img{
+                left: 106px;
+                position: absolute;
+                top: 40px;
+            }
+             h4{
+                position: absolute;
+                left: 85px;
+                top: 127px;
+                color: #22253B;
+                font-size: 16px;
+                text-align: center;
+            }
+             p{
+                text-align: center;
+                left: 90px;
+                position: absolute;
+                top: 174px;
+                font-size: 13px;
+            }
+        }
+        .card_five{
+            width: 270px;
+            height: 254px;
+            background: #EAF2F5;
+            position: absolute;
+            border-radius: 30px;
+            left: 280px;
+            top: 1990px;
+              img{
+                left: 106px;
+                position: absolute;
+                top: 50px;
+            }
+            h4{
+                position: absolute;
+                left: 30px;
+                top: 127px;
+                color: #22253B;
+                text-align: center;
+                font-size: 16px;
+            }
+            p{
+                text-align: center;
+                left: 60px;
+                position: absolute;
+                top: 180px;
+                font-size: 13px;
+            }
+        }
+        .card_six{
+            width: 270px;
+            height: 254px;
+            background: #EAF2F5;
+            position: absolute;
+            border-radius: 30px;
+            left: 590px;
+            top: 1990px;
+              img{
+                left: 106px;
+                position: absolute;
+                top: 50px;
+            }
+            h4{
+                position: absolute;
+                left: 52px;
+                top: 127px;
+                color: #22253B;
+                text-align: center;
+                font-size: 16px;
+            }
+            p{
+                text-align: center;
+                left: 30px;
+                position: absolute;
+                top: 174px;
+                font-size: 13px;
+                line-height: 15px;
+            }
+        }
+        .card_seven{
+            width: 270px;
+            height: 254px;
+            background: #EAF2F5;
+            position: absolute;
+            border-radius: 30px;
+            left: 900px;
+            top: 1990px;
+              img{
+                left: 106px;
+                position: absolute;
+                top: 50px;
+            }
+            h4{
+                position: absolute;
+                left: 60px;
+                top: 127px;
+                color: #22253B;
+                text-align: center;
+                font-size: 16px;
+            }
+            p{
+                text-align: center;
+                left: 50px;
+                position: absolute;
+                top: 174px;
+                font-size: 13px;
+            }
+        }
+    }
+    .card_one:hover, .card_two:hover, .card_three:hover, .card_four:hover, .card_five:hover, .card_six:hover, .card_seven:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+
+.restratsiya{
+    width: 100%;
+    height: 1400px;
+    background: #EEF2F6;
+    position: absolute;
+    top: 2400px;
+    h1{
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 46px;
+        top: 50px;
+    }
+    p{
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        top: 120px;
+    }
+    .big_card{
+        position: absolute;
+        left: 360px;
+        top: 280px;
+        .player{
+            position: absolute;
+            left: 300px;
+            top: 140px;
+        }
+        p{
+            top: 280px;
+            left: -10px;
+            color: #fff;
+        }
+    }
+    .number_card{
+        width: 1160px;
+        height: 349px;
+        background: #fff;
+        position: absolute;
+        border-radius: 40px;
+        left: 180px;
+        top: 800px;
+        h4{
+            font-size: 77px;
+            color: #38BFF2;
+            display: flex;
+            position: absolute;
+            gap: 304px;
+            left: 53px;
+            top: 56px;
+        }
+        h2{
+            font-size: 77px;
+            color: #38BFF2;
+            display: flex;
+            position: absolute;
+            gap: 304px;
+            left: 444px; 
+            top: 56px;
+        }
+        h3{
+            font-size: 77px;
+            color: #38BFF2;
+            display: flex;
+            position: absolute;
+            gap: 304px;
+            left: 821px; 
+            top: 56px;
+        }
+        .paragrph_one{
+            position: absolute;
+            margin-left: 0;
+            text-align: left;
+            left: 53px;
+            top: 150px;
+            font-weight: 900;
+            font-family: 'Roboto';
+            font-size: 24px;
+        }
+        .paragrph_two{
+            position: absolute;
+            text-align: left;
+            left: 444px;
+            top: 150px;width: 200px;
+            font-weight: 900;
+            font-size: 24px;
+        }
+        .paragrph_three{
+            position: absolute;
+            text-align: left;
+            left: 821px;
+            top: 150px;width: 200px;
+            font-weight: 900;
+            font-size: 24px;
+        }
+        .paragrph_heading_one{
+            text-align: left;
+            width: 300px;
+            position: absolute;
+            top: 140%;
+            color: #22253B;
+            font-size: 16px;
+        }
+        .paragrph_heading_two{
+            text-align: left;
+            width: 300px;
+            position: absolute;
+            top: 65%;
+            color: #22253B;
+            font-size: 16px;
+            left: 444px;
+        }
+        .paragrph_heading_three{
+            text-align: left;
+            width: 300px;
+            position: absolute;
+            top: 65%;
+            left: 820px;
+            color: #22253B;
+            font-size: 16px;
+        }
+    }
+    .big_button{
+        width: 538px;
+        height: 93px;
+        position: absolute;
+        background: #fff;
+        border-radius: 110px;
+        left: 500px;
+        top: 1200px;
+        button{
+            width: 249px;
+            height: 70px;
+            border: none;
+            border-radius: 82px;
+            background: #F15525;
+            color: #fff;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 96.69%;
+            left: 14px;
+            top: 12px;
+            position: absolute;
+            cursor: pointer;
+        }
+        button:hover{
+            transform: scale(1.05);
+            cursor: alias
+        }
+        button:active{
+            transform: scale(.9);
+        }
+        p{
+            text-align: left;
+            position: absolute;
+            left: 287px;
+            top: 20px;
+        }
+    }
+}
+
+.cards{
+    .card_one{
+        width: 401px;
+        height: 313px;
+        background: #EAF2F5;
+        position: absolute;
+        border-radius: 40px;
+        left: 170px;
+        top: 3900px;
+        img{
+            position: absolute;
+            left: 65px;
+            top: 41px;
+        }
+    }
+    .card_two{
+        width: 730px;
+        height: 313px;
+        background-color: #EAF2F5;
+        position: absolute;
+        border-radius: 40px;
+        top: 3900px;
+        left: 600px;
+        h2{
+            position: absolute;
+            left: 100px;
+            top: 54px;
+            font-size: 32px;
+            line-height: 30px;
+            color: #22253B;
+        }
+        .paragrph_one{
+            color: #22253B;
+            position: absolute;
+            left: 100px;
+            top: 109px;
+        }
+        .paragrph_two{
+            color: #22253B;
+            position: absolute;
+            left: 100px;
+            top: 174px;
+        }
+    }
+    .card_three{
+        width: 730px;
+        height: 313px;
+        background-color: #EAF2F5;
+        position: absolute;
+        border-radius: 40px;
+        top: 4250px;
+        left: 170px;
+        h1{
+            position: absolute;
+            left: 100px;
+            top: 54px;
+            font-size: 32px;
+            line-height: 30px;
+            color: #22253B;
+        }
+        .paragrph_one{
+            color: #22253B;
+            position: absolute;
+            left: 100px;
+            top: 109px;
+        }
+    }
+    .card_four{
+        width: 401px;
+        height: 313px;
+        background: #EAF2F5;
+        position: absolute;
+        border-radius: 40px;
+        left: 930px;
+        top: 4250px;
+           img{
+            position: absolute;
+            left: 65px;
+            top: 41px;
+        }
+    }
+    .card_one:hover, .card_two:hover, .card_three:hover, .card_four:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
+
+.moneys{
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    background-color: #F9F8FD;
+    top: 4700px;
+    h1{
+        text-align: center;
+        top: 90px;
+        position: absolute;
+        width: 100%;
+    }
+    .logos{
+        .calculator{
+            position: absolute;
+            left: 120px;
+            top: 172px;
+        }
+        p{
+            position: absolute;
+            left: 210px;
+            top: 171px;
+            width: 300px;
+            font-size: 16px;
+        }
+        .rubl{
+            position: absolute;
+            left: 579px;
+            top: 171px;
+        }
+        .paragrph_two{
+            left: 668px;
+        }
+        .phone{
+            left: 895px;
+            position: absolute;
+            top: 171px;
+        }
+        .paragrph_three{
+            left: 979px;
+
+        }
+    }
+    .big_card{
+        width: 1160px;
+        height: 550px;
+        background-color: #fff;
+        border-radius: 30px;
+        left: 180px;
+        top: 400px;
+        position: absolute;
+        .Блок{
+            color: #38BFF2;
+            position: absolute;
+            left: 60px;
+            top: 36px;
+        }     
+        .table_one{
+            width: 1081px;
+            height: 57px;
+            background: #F3F3F3;
+            border-radius: 10px;
+            position: absolute;
+            left: 39px;
+            top: 76px;
+            .paragrph_one{
+                position: absolute;
+                left: 19px;
+                top: 17px;
+            }
+            .paragrph_two{
+                position: absolute;
+                left: 518px;
+                top: 17px;
+            }
+            .paragrph_three{
+                position: absolute;
+                left: 803px;
+                top: 17px;
+            }
+        }  
+        .table_two{
+            width: 1081px;
+            height: 57px;
+            background: #fff;
+            border-radius: 10px;
+            position: absolute;
+            left: 39px;
+            top: 135px;
+             .paragrph_one{
+                position: absolute;
+                left: 19px;
+                top: 17px;
+            }
+            .paragrph_two{
+                position: absolute;
+                left: 518px;
+                top: 17px;
+            }
+            .paragrph_three{
+                position: absolute;
+                left: 803px;
+                top: 17px;
+            }
+        } 
+        .table_three{
+            width: 1081px;
+            height: 57px;
+            background: #F3F3F3;
+            border-radius: 10px;
+            position: absolute;
+            left: 39px;
+            top: 190px;
+             .paragrph_one{
+                position: absolute;
+                left: 19px;
+                top: 17px;
+            }
+            .paragrph_two{
+                position: absolute;
+                left: 518px;
+                top: 17px;
+            }
+            .paragrph_three{
+                position: absolute;
+                left: 803px;
+                top: 17px;
+            }
+        } 
+        .table_four{
+            width: 1081px;
+            height: 57px;
+            background: #fff;
+            border-radius: 10px;
+            position: absolute;
+            left: 39px;
+            top: 248px;
+            .paragrph_one{
+                position: absolute;
+                left: 19px;
+                top: 17px;
+            }
+            .paragrph_two{
+                position: absolute;
+                left: 518px;
+                top: 17px;
+            }
+            .paragrph_three{
+                position: absolute;
+                left: 803px;
+                top: 17px;
+            }
+        } 
+        .table_five{
+            width: 1081px;
+            height: 57px;
+            background: #F3F3F3;
+            border-radius: 10px;
+            position: absolute;
+            left: 39px;
+            top: 305px;
+            .paragrph_one{
+                position: absolute;
+                left: 19px;
+                top: 17px;
+            }
+            .paragrph_two{
+                position: absolute;
+                left: 518px;
+                top: 17px;
+            }
+            .paragrph_three{
+                position: absolute;
+                left: 803px;
+                top: 17px;
+            }
+        } 
+        .table_six{
+            width: 1081px;
+            height: 57px;
+            background: #fff;
+            border-radius: 10px;
+            position: absolute;
+            left: 39px;
+            top: 360px;
+            .paragrph_one{
+                position: absolute;
+                left: 19px;
+                top: 17px;
+            }
+            .paragrph_two{
+                position: absolute;
+                left: 518px;
+                top: 17px;
+            }
+            .paragrph_three{
+                position: absolute;
+                left: 803px;
+                top: 17px;
+            }
+        }
+        .table_seven{
+            width: 1081px;
+            height: 57px;
+            background: #F3F3F3;
+            border-radius: 10px;
+            position: absolute;
+            left: 39px;
+            top: 420px;
+            .paragrph_one{
+                position: absolute;
+                left: 19px;
+                top: 17px;
+            }
+            .paragrph_two{
+                position: absolute;
+                left: 518px;
+                top: 17px;
+            }
+            .paragrph_three{
+                position: absolute;
+                left: 803px;
+                top: 17px;
+            }
+        }  
+        .table_eight{
+               .paragrph_one{
+                position: absolute;
+                left: 58px;
+                top: 488px;
+                font-weight: bold;
+                font-size: 24px;
+            }
+            .paragrph_two{
+                position: absolute;
+                left: 557px;
+                top: 488px;
+                font-weight: bold;
+            }
+            .paragrph_three{
+                position: absolute;
+                left: 842px;
+                top: 488px;
+                font-weight: bold;
+            }
+        }
+    }
+
+}
+.card{
+    width: 1160px;
+    height: 218px;
+    background-color: #EAF2F5;
+    position: absolute;
+    top: 5900px;
+    left: 180px;
+    border-radius: 30px;
+    img{
+        position: absolute;
+        left: 54px;
+        top: 69px;
+    }
+    p{
+        position: absolute;
+        left: 175px;
+        top: 69px;
+    }
+    button{
+        width: 311px;
+        height: 70px;    
+        background: #F15525;
+        border-radius: 82px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        left: 789px;
+        top: 69px;
+        font-size: 20px;
+    }
+    button:hover{
+        transform: scale(1.05);
+    }
+    button:active{
+        transform: scale(.9);
+    }
+}
+
+footer{
+    .logo{
+        position: absolute;
+        left: 120px;
+        top: 6300px;
+        width: 84px;
+    }
+    .paragrph{
+        position: absolute;
+        top: 6300px;
+        left: 226px;
+        color: #8E8E8E;
+    }
+    .icons{
+        position: absolute;
+        left: 120px;
+        top: 6400px;
+        .instagram{
+            gap: 24px;
+        }
+        .instagram:hover{
+            transform: scale(1.1);
+        }
+
+    }
+    .links{
+        position: absolute;
+        top: 6280px;
+        left: 832px;
+        ul{
+            list-style: none;
+            li{
+                margin-top: 25px;
+                color: #22253B;
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .phone_number{
+        color: #38BFF2;
+        position: absolute;
+        left: 1119px;
+        top: 6310px;
+    }
+}
